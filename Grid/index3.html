@@ -24,14 +24,21 @@
         background-color: #f4f4f4;
 
         display: grid;
-        grid-template-rows: repeat(2, 150px);
-        grid-template-columns: repeat(2, 1fr);
+        /* grid-template-rows: repeat(2, 150px);
+        grid-template-columns: repeat(2, 1fr); */
         grid-gap: 20px;
 
-        align-items: center;
-        justify-items: center;
-        grid-auto-flow: row;
-        grid-auto-columns: 0.5fr;
+        /* align-items: center; */
+        /* justify-items: center; */
+        /* grid-auto-flow: row; */
+        /* grid-auto-columns: 0.5fr; */
+
+        grid-template-rows: repeat(2, 200px);
+        grid-template-columns: repeat(2, 100px);
+        height: 1000px;
+
+        justify-content: center;
+        align-content: center;
       }
       .item {
         padding: 20px;
